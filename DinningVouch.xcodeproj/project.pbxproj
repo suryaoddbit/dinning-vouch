@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */; };
+		DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE965284C73BC00F0D381 /* ContentView.swift */; };
+		DE0EE968284C73BC00F0D381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE967284C73BC00F0D381 /* Assets.xcassets */; };
+		DE0EE96B284C73BC00F0D381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE96A284C73BC00F0D381 /* Preview Assets.xcassets */; };
+		DE0EE975284C73BD00F0D381 /* DinningVouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */; };
+		DE0EE97F284C73BD00F0D381 /* DinningVouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */; };
+		DE0EE981284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0EE971284C73BD00F0D381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0EE958284C73BC00F0D381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0EE95F284C73BC00F0D381;
+			remoteInfo = DinningVouch;
+		};
+		DE0EE97B284C73BD00F0D381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0EE958284C73BC00F0D381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0EE95F284C73BC00F0D381;
+			remoteInfo = DinningVouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0EE960284C73BC00F0D381 /* DinningVouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinningVouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchApp.swift; sourceTree = "<group>"; };
+		DE0EE965284C73BC00F0D381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE0EE967284C73BC00F0D381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0EE96A284C73BC00F0D381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE0EE970284C73BD00F0D381 /* DinningVouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinningVouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchTests.swift; sourceTree = "<group>"; };
+		DE0EE97A284C73BD00F0D381 /* DinningVouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinningVouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUITests.swift; sourceTree = "<group>"; };
+		DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0EE95D284C73BC00F0D381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE96D284C73BD00F0D381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE977284C73BD00F0D381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0EE957284C73BC00F0D381 = {
+			isa = PBXGroup;
+			children = (
+				DE0EE962284C73BC00F0D381 /* DinningVouch */,
+				DE0EE973284C73BD00F0D381 /* DinningVouchTests */,
+				DE0EE97D284C73BD00F0D381 /* DinningVouchUITests */,
+				DE0EE961284C73BC00F0D381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0EE961284C73BC00F0D381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE960284C73BC00F0D381 /* DinningVouch.app */,
+				DE0EE970284C73BD00F0D381 /* DinningVouchTests.xctest */,
+				DE0EE97A284C73BD00F0D381 /* DinningVouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */,
+				DE0EE965284C73BC00F0D381 /* ContentView.swift */,
+				DE0EE967284C73BC00F0D381 /* Assets.xcassets */,
+				DE0EE969284C73BC00F0D381 /* Preview Content */,
+			);
+			path = DinningVouch;
+			sourceTree = "<group>";
+		};
+		DE0EE969284C73BC00F0D381 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE96A284C73BC00F0D381 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE0EE973284C73BD00F0D381 /* DinningVouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */,
+			);
+			path = DinningVouchTests;
+			sourceTree = "<group>";
+		};
+		DE0EE97D284C73BD00F0D381 /* DinningVouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */,
+				DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */,
+			);
+			path = DinningVouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0EE95F284C73BC00F0D381 /* DinningVouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0EE984284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouch" */;
+			buildPhases = (
+				DE0EE95C284C73BC00F0D381 /* Sources */,
+				DE0EE95D284C73BC00F0D381 /* Frameworks */,
+				DE0EE95E284C73BC00F0D381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinningVouch;
+			productName = DinningVouch;
+			productReference = DE0EE960284C73BC00F0D381 /* DinningVouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0EE96F284C73BD00F0D381 /* DinningVouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0EE987284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouchTests" */;
+			buildPhases = (
+				DE0EE96C284C73BD00F0D381 /* Sources */,
+				DE0EE96D284C73BD00F0D381 /* Frameworks */,
+				DE0EE96E284C73BD00F0D381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0EE972284C73BD00F0D381 /* PBXTargetDependency */,
+			);
+			name = DinningVouchTests;
+			productName = DinningVouchTests;
+			productReference = DE0EE970284C73BD00F0D381 /* DinningVouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0EE979284C73BD00F0D381 /* DinningVouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0EE98A284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouchUITests" */;
+			buildPhases = (
+				DE0EE976284C73BD00F0D381 /* Sources */,
+				DE0EE977284C73BD00F0D381 /* Frameworks */,
+				DE0EE978284C73BD00F0D381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0EE97C284C73BD00F0D381 /* PBXTargetDependency */,
+			);
+			name = DinningVouchUITests;
+			productName = DinningVouchUITests;
+			productReference = DE0EE97A284C73BD00F0D381 /* DinningVouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0EE958284C73BC00F0D381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DE0EE95F284C73BC00F0D381 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DE0EE96F284C73BD00F0D381 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE0EE95F284C73BC00F0D381;
+					};
+					DE0EE979284C73BD00F0D381 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DE0EE95F284C73BC00F0D381;
+					};
+				};
+			};
+			buildConfigurationList = DE0EE95B284C73BC00F0D381 /* Build configuration list for PBXProject "DinningVouch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0EE957284C73BC00F0D381;
+			productRefGroup = DE0EE961284C73BC00F0D381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0EE95F284C73BC00F0D381 /* DinningVouch */,
+				DE0EE96F284C73BD00F0D381 /* DinningVouchTests */,
+				DE0EE979284C73BD00F0D381 /* DinningVouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0EE95E284C73BC00F0D381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0EE96B284C73BC00F0D381 /* Preview Assets.xcassets in Resources */,
+				DE0EE968284C73BC00F0D381 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE96E284C73BD00F0D381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE978284C73BD00F0D381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0EE95C284C73BC00F0D381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
+				DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE96C284C73BD00F0D381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0EE975284C73BD00F0D381 /* DinningVouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0EE976284C73BD00F0D381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0EE981284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift in Sources */,
+				DE0EE97F284C73BD00F0D381 /* DinningVouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0EE972284C73BD00F0D381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0EE95F284C73BC00F0D381 /* DinningVouch */;
+			targetProxy = DE0EE971284C73BD00F0D381 /* PBXContainerItemProxy */;
+		};
+		DE0EE97C284C73BD00F0D381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0EE95F284C73BC00F0D381 /* DinningVouch */;
+			targetProxy = DE0EE97B284C73BD00F0D381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE0EE982284C73BD00F0D381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0EE983284C73BD00F0D381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0EE985284C73BD00F0D381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0EE986284C73BD00F0D381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0EE988284C73BD00F0D381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinningVouch.app/DinningVouch";
+			};
+			name = Debug;
+		};
+		DE0EE989284C73BD00F0D381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinningVouch.app/DinningVouch";
+			};
+			name = Release;
+		};
+		DE0EE98B284C73BD00F0D381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinningVouch;
+			};
+			name = Debug;
+		};
+		DE0EE98C284C73BD00F0D381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DinningVouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinningVouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0EE95B284C73BC00F0D381 /* Build configuration list for PBXProject "DinningVouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0EE982284C73BD00F0D381 /* Debug */,
+				DE0EE983284C73BD00F0D381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0EE984284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0EE985284C73BD00F0D381 /* Debug */,
+				DE0EE986284C73BD00F0D381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0EE987284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0EE988284C73BD00F0D381 /* Debug */,
+				DE0EE989284C73BD00F0D381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0EE98A284C73BD00F0D381 /* Build configuration list for PBXNativeTarget "DinningVouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0EE98B284C73BD00F0D381 /* Debug */,
+				DE0EE98C284C73BD00F0D381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0EE958284C73BC00F0D381 /* Project object */;
+}
