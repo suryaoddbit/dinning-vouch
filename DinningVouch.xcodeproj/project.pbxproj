@@ -17,6 +17,7 @@
 		DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */; };
 		DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */; };
 		DE0EE9AA284C7E5500F0D381 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EE9A9284C7E5500F0D381 /* Alamofire */; };
+		DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		DE0EE9A3284C7C2700F0D381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPiClient.swift; sourceTree = "<group>"; };
+		DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueHomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE9B0284C7F4A00F0D381 /* Model */,
 				DE0EE9A5284C7E3200F0D381 /* Network */,
 				DE0EE99D284C7BC100F0D381 /* App */,
 				DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */,
@@ -163,6 +166,14 @@
 				DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DE0EE9B0284C7F4A00F0D381 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */,
 				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
 				DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */,
 				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
