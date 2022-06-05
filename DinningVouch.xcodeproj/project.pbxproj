@@ -60,6 +60,7 @@
 		DE0EE9B3284C7F9800F0D381 /* CatalogueDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueDetailModel.swift; sourceTree = "<group>"; };
 		DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
 		DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueService.swift; sourceTree = "<group>"; };
+		DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCatalogHomeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE9BB284C825B00F0D381 /* Mock */,
 				DE0EE9B0284C7F4A00F0D381 /* Model */,
 				DE0EE9A5284C7E3200F0D381 /* Network */,
 				DE0EE99D284C7BC100F0D381 /* App */,
@@ -191,6 +193,22 @@
 				DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */,
 			);
 			path = Catalogue;
+			sourceTree = "<group>";
+		};
+		DE0EE9BB284C825B00F0D381 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9BC284C826400F0D381 /* Data */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DE0EE9BC284C826400F0D381 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
