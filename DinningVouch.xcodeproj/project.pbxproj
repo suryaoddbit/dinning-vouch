@@ -61,6 +61,7 @@
 		DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
 		DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueService.swift; sourceTree = "<group>"; };
 		DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCatalogHomeData.json; sourceTree = "<group>"; };
+		DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCatalogueDetail.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */,
+				DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
