@@ -28,7 +28,7 @@ jobs:
     name: Deploying to Testflight
     runs-on: macOS-latest
     needs: test
-    
+    if: env.IS_PUSH_PROD == 'true'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
