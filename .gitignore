@@ -3,6 +3,7 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 .DS_Store
+Gemfile.lock
 
 ## User settings
 xcuserdata/
@@ -83,6 +84,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+fastlane/*.env
+fastlane/README.md
 
 # Code Injection
 #

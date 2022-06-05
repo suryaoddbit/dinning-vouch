@@ -1,0 +1,8 @@
+app_identifier("com.vouch.dinning") # The bundle identifier of your app
+apple_id("holidays.iseveryday@gmail.com") # Your Apple email address
+
+itc_team_id("120438186") # App Store Connect Team ID
+team_id("RMXJYQCWUX") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
