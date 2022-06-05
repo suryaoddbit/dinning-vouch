@@ -15,6 +15,8 @@
 		DE0EE97F284C73BD00F0D381 /* DinningVouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */; };
 		DE0EE981284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */; };
 		DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */; };
+		DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */; };
+		DE0EE9AA284C7E5500F0D381 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EE9A9284C7E5500F0D381 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		DE0EE9A3284C7C2700F0D381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9AA284C7E5500F0D381 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,7 @@
 		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE9A5284C7E3200F0D381 /* Network */,
 				DE0EE99D284C7BC100F0D381 /* App */,
 				DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */,
 				DE0EE965284C73BC00F0D381 /* ContentView.swift */,
@@ -152,6 +157,14 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		DE0EE9A5284C7E3200F0D381 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +181,9 @@
 			dependencies = (
 			);
 			name = DinningVouch;
+			packageProductDependencies = (
+				DE0EE9A9284C7E5500F0D381 /* Alamofire */,
+			);
 			productName = DinningVouch;
 			productReference = DE0EE960284C73BC00F0D381 /* DinningVouch.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +256,9 @@
 				Base,
 			);
 			mainGroup = DE0EE957284C73BC00F0D381;
+			packageReferences = (
+				DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = DE0EE961284C73BC00F0D381 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -283,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
+				DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */,
 				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
 				DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */,
 			);
@@ -865,6 +885,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE0EE9A9284C7E5500F0D381 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE0EE958284C73BC00F0D381 /* Project object */;
 }
