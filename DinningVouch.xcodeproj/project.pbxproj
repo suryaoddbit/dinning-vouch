@@ -25,6 +25,19 @@
 		DE0EE9C2284CC5CC00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
 		DE0EE9C3284CC5CD00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
 		DE0EE9C4284CC5CF00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
+		DE0EE9CA284CECB000F0D381 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9C9284CECB000F0D381 /* ViewState.swift */; };
+		DE0EE9CC284CECC700F0D381 /* CatalogueHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9CB284CECC700F0D381 /* CatalogueHomeViewModel.swift */; };
+		DE0EE9CE284CECF100F0D381 /* CatalogueHomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9CD284CECF100F0D381 /* CatalogueHomeScreenView.swift */; };
+		DE0EE9D1284CED2400F0D381 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EE9D0284CED2400F0D381 /* Introspect */; };
+		DE0EE9D4284CF03A00F0D381 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9D3284CF03A00F0D381 /* DialogView.swift */; };
+		DE0EE9D7284CF06F00F0D381 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9D6284CF06F00F0D381 /* Colors.xcassets */; };
+		DE0EE9DB284CF0B700F0D381 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9DA284CF0B700F0D381 /* ColorExtensions.swift */; };
+		DE0EE9DD284CF0D500F0D381 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9DC284CF0D500F0D381 /* ViewExtensions.swift */; };
+		DE0EE9E0284CF12500F0D381 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9DF284CF12500F0D381 /* RoundedCorner.swift */; };
+		DE0EE9E4284CF16A00F0D381 /* MenuGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9E3284CF16A00F0D381 /* MenuGridItem.swift */; };
+		DE0EE9E7284CF18300F0D381 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EE9E6284CF18300F0D381 /* NukeUI */; };
+		DE0EE9E9284CF19A00F0D381 /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9E8284CF19A00F0D381 /* FlexibleView.swift */; };
+		DE0EE9EB284CF1C000F0D381 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9EA284CF1C000F0D381 /* MenuRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +80,17 @@
 		DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCatalogHomeData.json; sourceTree = "<group>"; };
 		DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCatalogueDetail.json; sourceTree = "<group>"; };
 		DE0EE9C0284C860000F0D381 /* MockCatalogueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatalogueService.swift; sourceTree = "<group>"; };
+		DE0EE9C9284CECB000F0D381 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		DE0EE9CB284CECC700F0D381 /* CatalogueHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueHomeViewModel.swift; sourceTree = "<group>"; };
+		DE0EE9CD284CECF100F0D381 /* CatalogueHomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueHomeScreenView.swift; sourceTree = "<group>"; };
+		DE0EE9D3284CF03A00F0D381 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		DE0EE9D6284CF06F00F0D381 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DE0EE9DA284CF0B700F0D381 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		DE0EE9DC284CF0D500F0D381 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		DE0EE9DF284CF12500F0D381 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		DE0EE9E3284CF16A00F0D381 /* MenuGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGridItem.swift; sourceTree = "<group>"; };
+		DE0EE9E8284CF19A00F0D381 /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		DE0EE9EA284CF1C000F0D381 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9E7284CF18300F0D381 /* NukeUI in Frameworks */,
 				DE0EE9AA284C7E5500F0D381 /* Alamofire in Frameworks */,
+				DE0EE9D1284CED2400F0D381 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,13 +144,16 @@
 		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE9D8284CF09600F0D381 /* Definition */,
+				DE0EE9D5284CF05C00F0D381 /* Resource */,
+				DE0EE9C7284CEC9200F0D381 /* Component */,
+				DE0EE9C5284CEC6600F0D381 /* Module */,
 				DE0EE9BB284C825B00F0D381 /* Mock */,
 				DE0EE9B0284C7F4A00F0D381 /* Model */,
 				DE0EE9A5284C7E3200F0D381 /* Network */,
 				DE0EE99D284C7BC100F0D381 /* App */,
 				DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */,
 				DE0EE965284C73BC00F0D381 /* ContentView.swift */,
-				DE0EE967284C73BC00F0D381 /* Assets.xcassets */,
 				DE0EE969284C73BC00F0D381 /* Preview Content */,
 				DE0EE9A3284C7C2700F0D381 /* Info.plist */,
 			);
@@ -227,6 +256,102 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		DE0EE9C5284CEC6600F0D381 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9C6284CEC7000F0D381 /* CatalogueHome */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		DE0EE9C6284CEC7000F0D381 /* CatalogueHome */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9CB284CECC700F0D381 /* CatalogueHomeViewModel.swift */,
+				DE0EE9CD284CECF100F0D381 /* CatalogueHomeScreenView.swift */,
+			);
+			path = CatalogueHome;
+			sourceTree = "<group>";
+		};
+		DE0EE9C7284CEC9200F0D381 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9E2284CF15700F0D381 /* List */,
+				DE0EE9E1284CF15200F0D381 /* Grid */,
+				DE0EE9DE284CF11800F0D381 /* Shape */,
+				DE0EE9D2284CF02400F0D381 /* Container */,
+				DE0EE9C8284CEC9700F0D381 /* ViewState */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		DE0EE9C8284CEC9700F0D381 /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9C9284CECB000F0D381 /* ViewState.swift */,
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		DE0EE9D2284CF02400F0D381 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9D3284CF03A00F0D381 /* DialogView.swift */,
+				DE0EE9E8284CF19A00F0D381 /* FlexibleView.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		DE0EE9D5284CF05C00F0D381 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE967284C73BC00F0D381 /* Assets.xcassets */,
+				DE0EE9D6284CF06F00F0D381 /* Colors.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE0EE9D8284CF09600F0D381 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9D9284CF0A700F0D381 /* Extensions */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		DE0EE9D9284CF0A700F0D381 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9DA284CF0B700F0D381 /* ColorExtensions.swift */,
+				DE0EE9DC284CF0D500F0D381 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE0EE9DE284CF11800F0D381 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9DF284CF12500F0D381 /* RoundedCorner.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		DE0EE9E1284CF15200F0D381 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9E3284CF16A00F0D381 /* MenuGridItem.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		DE0EE9E2284CF15700F0D381 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9EA284CF1C000F0D381 /* MenuRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +370,8 @@
 			name = DinningVouch;
 			packageProductDependencies = (
 				DE0EE9A9284C7E5500F0D381 /* Alamofire */,
+				DE0EE9D0284CED2400F0D381 /* Introspect */,
+				DE0EE9E6284CF18300F0D381 /* NukeUI */,
 			);
 			productName = DinningVouch;
 			productReference = DE0EE960284C73BC00F0D381 /* DinningVouch.app */;
@@ -320,6 +447,8 @@
 			mainGroup = DE0EE957284C73BC00F0D381;
 			packageReferences = (
 				DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DE0EE9CF284CED2400F0D381 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */,
 			);
 			productRefGroup = DE0EE961284C73BC00F0D381 /* Products */;
 			projectDirPath = "";
@@ -338,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE96B284C73BC00F0D381 /* Preview Assets.xcassets in Resources */,
+				DE0EE9D7284CF06F00F0D381 /* Colors.xcassets in Resources */,
 				DE0EE9C2284CC5CC00F0D381 /* MockCatalogHomeData.json in Resources */,
 				DE0EE968284C73BC00F0D381 /* Assets.xcassets in Resources */,
 			);
@@ -368,13 +498,23 @@
 			files = (
 				DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */,
 				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
+				DE0EE9CA284CECB000F0D381 /* ViewState.swift in Sources */,
 				DE0EE9C1284C860000F0D381 /* MockCatalogueService.swift in Sources */,
+				DE0EE9D4284CF03A00F0D381 /* DialogView.swift in Sources */,
+				DE0EE9E4284CF16A00F0D381 /* MenuGridItem.swift in Sources */,
 				DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */,
 				DE0EE9B7284C7FEE00F0D381 /* ErrorResponseModel.swift in Sources */,
 				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
+				DE0EE9E0284CF12500F0D381 /* RoundedCorner.swift in Sources */,
+				DE0EE9CC284CECC700F0D381 /* CatalogueHomeViewModel.swift in Sources */,
 				DE0EE9B4284C7F9800F0D381 /* CatalogueDetailModel.swift in Sources */,
+				DE0EE9CE284CECF100F0D381 /* CatalogueHomeScreenView.swift in Sources */,
+				DE0EE9EB284CF1C000F0D381 /* MenuRow.swift in Sources */,
+				DE0EE9E9284CF19A00F0D381 /* FlexibleView.swift in Sources */,
 				DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */,
 				DE0EE9BA284C801A00F0D381 /* CatalogueService.swift in Sources */,
+				DE0EE9DD284CF0D500F0D381 /* ViewExtensions.swift in Sources */,
+				DE0EE9DB284CF0B700F0D381 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,6 +1105,22 @@
 				kind = branch;
 			};
 		};
+		DE0EE9CF284CED2400F0D381 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -972,6 +1128,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		DE0EE9D0284CED2400F0D381 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0EE9CF284CED2400F0D381 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		DE0EE9E6284CF18300F0D381 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
