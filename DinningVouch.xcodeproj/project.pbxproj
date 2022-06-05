@@ -19,6 +19,8 @@
 		DE0EE9AA284C7E5500F0D381 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EE9A9284C7E5500F0D381 /* Alamofire */; };
 		DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */; };
 		DE0EE9B4284C7F9800F0D381 /* CatalogueDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B3284C7F9800F0D381 /* CatalogueDetailModel.swift */; };
+		DE0EE9B7284C7FEE00F0D381 /* ErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */; };
+		DE0EE9BA284C801A00F0D381 /* CatalogueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPiClient.swift; sourceTree = "<group>"; };
 		DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueHomeModel.swift; sourceTree = "<group>"; };
 		DE0EE9B3284C7F9800F0D381 /* CatalogueDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueDetailModel.swift; sourceTree = "<group>"; };
+		DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
+		DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 		DE0EE9A5284C7E3200F0D381 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE9B8284C800300F0D381 /* Catalogue */,
 				DE0EE9A6284C7E4600F0D381 /* RestAPiClient.swift */,
 			);
 			path = Network;
@@ -175,8 +180,17 @@
 			children = (
 				DE0EE9B1284C7F5600F0D381 /* CatalogueHomeModel.swift */,
 				DE0EE9B3284C7F9800F0D381 /* CatalogueDetailModel.swift */,
+				DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DE0EE9B8284C800300F0D381 /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */,
+			);
+			path = Catalogue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +332,11 @@
 				DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */,
 				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
 				DE0EE9A7284C7E4600F0D381 /* RestAPiClient.swift in Sources */,
+				DE0EE9B7284C7FEE00F0D381 /* ErrorResponseModel.swift in Sources */,
 				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
 				DE0EE9B4284C7F9800F0D381 /* CatalogueDetailModel.swift in Sources */,
 				DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */,
+				DE0EE9BA284C801A00F0D381 /* CatalogueService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
