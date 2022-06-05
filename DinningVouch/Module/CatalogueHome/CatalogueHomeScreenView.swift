@@ -74,7 +74,8 @@ struct CatalogueHomeScreenView<ViewModel: CatalogueHomeViewModel>: View {
                 }
             }
             .sheet(isPresented: $presentingDetailMenu, onDismiss: nil, content: {
-                            
+                let service = CatalogueService()
+                CatalogueDetailScreenView(viewModel: CatalogueDetailViewModel(service: service))
             })
             .onAppear(perform: {
                 viewModel.fetchCatalogueHome()
