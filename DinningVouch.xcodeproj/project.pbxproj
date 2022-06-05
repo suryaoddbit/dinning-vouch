@@ -22,6 +22,9 @@
 		DE0EE9B7284C7FEE00F0D381 /* ErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B6284C7FEE00F0D381 /* ErrorResponseModel.swift */; };
 		DE0EE9BA284C801A00F0D381 /* CatalogueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9B9284C801A00F0D381 /* CatalogueService.swift */; };
 		DE0EE9C1284C860000F0D381 /* MockCatalogueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9C0284C860000F0D381 /* MockCatalogueService.swift */; };
+		DE0EE9C2284CC5CC00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
+		DE0EE9C3284CC5CD00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
+		DE0EE9C4284CC5CF00F0D381 /* MockCatalogHomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BD284C827D00F0D381 /* MockCatalogHomeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE96B284C73BC00F0D381 /* Preview Assets.xcassets in Resources */,
+				DE0EE9C2284CC5CC00F0D381 /* MockCatalogHomeData.json in Resources */,
 				DE0EE968284C73BC00F0D381 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9C3284CC5CD00F0D381 /* MockCatalogHomeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9C4284CC5CF00F0D381 /* MockCatalogHomeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

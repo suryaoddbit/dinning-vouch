@@ -5,10 +5,15 @@
 //  Created by I Wayan Surya Adi Yasa on 05/06/22.
 //
 
-import XCTest
 @testable import DinningVouch
+import XCTest
 
 class DinningVouchTests: XCTestCase {
+    var mockCatalogueHomeEntity: CatalogueHomeModel!
+
+    override func setUp() async throws {
+        mockCatalogueHomeEntity = CatalogueHomeModel.mock()
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,9 +33,21 @@ class DinningVouchTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
 
+    func testCatalogueHomeEntity() throws {
+        print("Total catagories \(mockCatalogueHomeEntity.categories.count)")
+        print("Total menus \(mockCatalogueHomeEntity.list.count)")
+        XCTAssertTrue(mockCatalogueHomeEntity.list is [CatalogueHomeList])
+        XCTAssertTrue(mockCatalogueHomeEntity.categories is [CatalogueHomeCategory])
+    }
+
+    func testCheckCatalogueidmapping() throws {
+        let firstCatalog = mockCatalogueHomeEntity.list.first
+        print("\(String(describing: firstCatalog?.id)) - \(String(describing: firstCatalog?.categoryID))")
+        XCTAssertEqual(firstCatalog?.id, firstCatalog?.categoryID)
+    }
 }
