@@ -11,7 +11,8 @@ import SwiftUI
 struct DinningVouchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let service = CatalogueService()
+            CatalogueHomeScreenView(viewModel: CatalogueHomeViewModel(service: service))
         }
     }
 }
