@@ -14,6 +14,7 @@
 		DE0EE975284C73BD00F0D381 /* DinningVouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */; };
 		DE0EE97F284C73BD00F0D381 /* DinningVouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */; };
 		DE0EE981284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */; };
+		DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,10 @@
 		DE0EE97A284C73BD00F0D381 /* DinningVouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinningVouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0EE97E284C73BD00F0D381 /* DinningVouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUITests.swift; sourceTree = "<group>"; };
 		DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE0EE99F284C7BE500F0D381 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		DE0EE9A3284C7C2700F0D381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +99,12 @@
 		DE0EE962284C73BC00F0D381 /* DinningVouch */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EE99D284C7BC100F0D381 /* App */,
 				DE0EE963284C73BC00F0D381 /* DinningVouchApp.swift */,
 				DE0EE965284C73BC00F0D381 /* ContentView.swift */,
 				DE0EE967284C73BC00F0D381 /* Assets.xcassets */,
 				DE0EE969284C73BC00F0D381 /* Preview Content */,
+				DE0EE9A3284C7C2700F0D381 /* Info.plist */,
 			);
 			path = DinningVouch;
 			sourceTree = "<group>";
@@ -125,6 +132,24 @@
 				DE0EE980284C73BD00F0D381 /* DinningVouchUITestsLaunchTests.swift */,
 			);
 			path = DinningVouchUITests;
+			sourceTree = "<group>";
+		};
+		DE0EE99D284C7BC100F0D381 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE99E284C7BC700F0D381 /* Configuration */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE0EE99E284C7BC700F0D381 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EE99F284C7BE500F0D381 /* Release.xcconfig */,
+				DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */,
+				DE0EE9A1284C7C0D00F0D381 /* AppConfiguration.swift */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
 				DE0EE966284C73BC00F0D381 /* ContentView.swift in Sources */,
 				DE0EE964284C73BC00F0D381 /* DinningVouchApp.swift in Sources */,
 			);
@@ -297,6 +323,7 @@
 /* Begin XCBuildConfiguration section */
 		DE0EE982284C73BD00F0D381 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EE99F284C7BE500F0D381 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +384,7 @@
 		};
 		DE0EE983284C73BD00F0D381 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EE99F284C7BE500F0D381 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -419,6 +447,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinningVouch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dinning Vouch";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,6 +477,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinningVouch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dinning Vouch";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -541,6 +571,7 @@
 		};
 		DE0EE995284C774D00F0D381 /* Debug-Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -609,6 +640,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinningVouch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "[D]Dinning Vouch";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -666,6 +698,7 @@
 		};
 		DE0EE999284C775400F0D381 /* Release-Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,6 +761,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DinningVouch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DinningVouch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "[D]Dinning Vouch";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
