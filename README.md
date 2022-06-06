@@ -4,11 +4,11 @@
 Build an iOS app that displays menu list and menu details
 
 ### Project Summary
-User interface toolkit : SwiftUI
-Programking Language : Swift
-Min OS Version : 14.0
-Development duration : ±12 hours 
-Project board: https://github.com/suryaoddbit/dinning-vouch/projects/2
+- User interface toolkit : SwiftUI
+- Programking Language : Swift
+- Min OS Version : 14.0
+- Development duration : ±12 hours
+- Project board: https://github.com/suryaoddbit/dinning-vouch/projects/2
 
 ### App Screen Record
 
