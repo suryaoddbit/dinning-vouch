@@ -49,6 +49,10 @@
 		DE0EE9FF284CF88A00F0D381 /* MockCatalogueDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */; };
 		DE0EEA00284CF88A00F0D381 /* MockCatalogueDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */; };
 		DE0EEA01284CF88B00F0D381 /* MockCatalogueDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */; };
+		DE0EEA05284D956000F0D381 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE0EEA07284D956000F0D381 /* Localizable.strings */; };
+		DE0EEA0A284D998800F0D381 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EEA09284D998800F0D381 /* L10n.swift */; };
+		DE0EEA0D284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */; };
+		DE0EEA16284D9DC600F0D381 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EEA15284D9DC600F0D381 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,10 @@
 		DE0EE9F9284CF4D900F0D381 /* MenuOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsView.swift; sourceTree = "<group>"; };
 		DE0EE9FB284CF4F500F0D381 /* AddOnRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnRow.swift; sourceTree = "<group>"; };
 		DE0EE9FD284CF51900F0D381 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		DE0EEA06284D956000F0D381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE0EEA08284D957500F0D381 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE0EEA09284D998800F0D381 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUiInspectorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EEA16284D9DC600F0D381 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +156,7 @@
 				DE0EE973284C73BD00F0D381 /* DinningVouchTests */,
 				DE0EE97D284C73BD00F0D381 /* DinningVouchUITests */,
 				DE0EE961284C73BC00F0D381 /* Products */,
+				DE0EEA14284D9DC600F0D381 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +200,7 @@
 		DE0EE973284C73BD00F0D381 /* DinningVouchTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EEA0B284D9D1000F0D381 /* UITestInspector */,
 				DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */,
 			);
 			path = DinningVouchTests;
@@ -328,6 +339,7 @@
 		DE0EE9D5284CF05C00F0D381 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EEA02284D953600F0D381 /* Localization */,
 				DE0EE967284C73BC00F0D381 /* Assets.xcassets */,
 				DE0EE9D6284CF06F00F0D381 /* Colors.xcassets */,
 			);
@@ -403,6 +415,30 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		DE0EEA02284D953600F0D381 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EEA07284D956000F0D381 /* Localizable.strings */,
+				DE0EEA09284D998800F0D381 /* L10n.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DE0EEA0B284D9D1000F0D381 /* UITestInspector */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */,
+			);
+			path = UITestInspector;
+			sourceTree = "<group>";
+		};
+		DE0EEA14284D9DC600F0D381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -442,6 +478,9 @@
 				DE0EE972284C73BD00F0D381 /* PBXTargetDependency */,
 			);
 			name = DinningVouchTests;
+			packageProductDependencies = (
+				DE0EEA15284D9DC600F0D381 /* ViewInspector */,
+			);
 			productName = DinningVouchTests;
 			productReference = DE0EE970284C73BD00F0D381 /* DinningVouchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -494,12 +533,14 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = DE0EE957284C73BC00F0D381;
 			packageReferences = (
 				DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				DE0EE9CF284CED2400F0D381 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */,
+				DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = DE0EE961284C73BC00F0D381 /* Products */;
 			projectDirPath = "";
@@ -518,6 +559,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE96B284C73BC00F0D381 /* Preview Assets.xcassets in Resources */,
+				DE0EEA05284D956000F0D381 /* Localizable.strings in Resources */,
 				DE0EE9D7284CF06F00F0D381 /* Colors.xcassets in Resources */,
 				DE0EE9C2284CC5CC00F0D381 /* MockCatalogHomeData.json in Resources */,
 				DE0EE9FF284CF88A00F0D381 /* MockCatalogueDetail.json in Resources */,
@@ -554,6 +596,7 @@
 				DE0EE9B2284C7F5600F0D381 /* CatalogueHomeModel.swift in Sources */,
 				DE0EE9A2284C7C0D00F0D381 /* AppConfiguration.swift in Sources */,
 				DE0EE9CA284CECB000F0D381 /* ViewState.swift in Sources */,
+				DE0EEA0A284D998800F0D381 /* L10n.swift in Sources */,
 				DE0EE9C1284C860000F0D381 /* MockCatalogueService.swift in Sources */,
 				DE0EE9D4284CF03A00F0D381 /* DialogView.swift in Sources */,
 				DE0EE9EE284CF41200F0D381 /* CatalogueDetailViewData.swift in Sources */,
@@ -585,6 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE975284C73BD00F0D381 /* DinningVouchTests.swift in Sources */,
+				DE0EEA0D284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,12 +656,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		DE0EEA07284D956000F0D381 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0EEA06284D956000F0D381 /* en */,
+				DE0EEA08284D957500F0D381 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		DE0EE982284C73BD00F0D381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE0EE99F284C7BE500F0D381 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -679,6 +736,7 @@
 			baseConfigurationReference = DE0EE99F284C7BE500F0D381 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -874,6 +932,7 @@
 			baseConfigurationReference = DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1004,6 +1063,7 @@
 			baseConfigurationReference = DE0EE9A0284C7BF800F0D381 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1197,6 +1257,14 @@
 				kind = branch;
 			};
 		};
+		DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1214,6 +1282,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */;
 			productName = NukeUI;
+		};
+		DE0EEA15284D9DC600F0D381 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

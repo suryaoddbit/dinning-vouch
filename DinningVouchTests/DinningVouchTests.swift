@@ -50,4 +50,17 @@ class DinningVouchTests: XCTestCase {
         print("\(String(describing: firstCatalog?.id)) - \(String(describing: firstCatalog?.categoryID))")
         XCTAssertEqual(firstCatalog?.id, firstCatalog?.categoryID)
     }
+    
+    func testDisplayedTags() throws {
+        let mockCatalogueHomeEntity = CatalogueHomeModel.mock()
+
+        let firstTag = mockCatalogueHomeEntity.list[0].items[0].tags[0]
+        let firstDisplayedTag = mockCatalogueHomeEntity.list[0].items[0].displayedTags[0]
+
+        XCTAssertEqual(firstTag, "white_cabbage")
+        XCTAssertEqual(firstDisplayedTag, "white-cabbage")
+
+        // displayedTags shouldn't contain _ characters
+        XCTAssertFalse(firstDisplayedTag.contains("_"))
+    }
 }
