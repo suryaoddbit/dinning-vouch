@@ -82,7 +82,7 @@ struct CatalogueHomeScreenView<ViewModel: CatalogueHomeViewModel>: View {
 
             })
             .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Dinning")
+            .navigationTitle(L10n.homeScreenNavigationTitle.localize)
         }
     }
 
@@ -109,16 +109,17 @@ struct CatalogueHomeScreenView<ViewModel: CatalogueHomeViewModel>: View {
 
     @ViewBuilder
     func failed() -> some View {
-        DialogView(title: "Failed to load data",
-                   subtitle: "Please check your internet connection and try again",
-                   buttonTitle: "Tap to Reload") {
+        DialogView(title: L10n.failStateTitle.localize,
+                   subtitle: L10n.failStateSubTitle.localize,
+                   buttonTitle: L10n.failStateButton.localize) {
             viewModel.load()
         }
     }
 
     @ViewBuilder
     func empty() -> some View {
-        DialogView(title: "Menu is still empty", subtitle: "Subscribe to unlock content!")
+        DialogView(title: L10n.emptyStateTitle.localize,
+                   subtitle: L10n.emptyStateSubTitle.localize)
     }
 
     @ViewBuilder

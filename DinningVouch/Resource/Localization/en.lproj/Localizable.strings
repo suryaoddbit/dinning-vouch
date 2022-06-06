@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  DinningVouch
+
+  Created by I Wayan Surya Adi Yasa on 06/06/22.
+  
+*/
+
+"menuOptionTitle" = "Variants";
+"menuOptionPlaceholder" = "Choose One";
+
+"homeScreenNavigationTitle" = "Dinning";
+
+"failStateTitle" = "Failed to load data";
+"failStateSubTitle" = "Please check your internet connection and try again";
+"failStateButton" = "Tap to Reload";
+
+"emptyStateTitle" = "Menu is still empty";
+"emptyStateSubTitle" = "Subscribe to unlock content!";
+
+"notesTitle" = "Notes";
+"notesSubTitle" = "Optional";
+"notesPlaceholder" = "Eg. No Mushroom";
+
+"addToCart" = "Add To Cart";
+"removeItem" = "Remove Item";
