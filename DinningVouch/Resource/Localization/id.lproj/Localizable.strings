@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  DinningVouch
+
+  Created by I Wayan Surya Adi Yasa on 06/06/22.
+  
+*/
+
+"menuOptionTitle" = "Variants";
+"menuOptionPlaceholder" = "Pilih satu";
+
+"homeScreenNavigationTitle" = "Dinning";
+
+"failStateTitle" = "Gagal memuat data";
+"failStateSubTitle" = "Cek koneksi internet dan coba lagi";
+"failStateButton" = "Tap untuk reload";
+
+"emptyStateTitle" = "Menu kosong";
+"emptyStateSubTitle" = "Subscribe untuk membuka kontent!";
+
+"notesTitle" = "Note";
+"notesSubTitle" = "Optional";
+"notesPlaceholder" = "Contoh: tanpa jamur";
+
+"addToCart" = "Tambah keranjang";
+"removeItem" = "Hapus item";

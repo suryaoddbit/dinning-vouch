@@ -45,8 +45,8 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
                     header
                     DividerView(height: 6)
                     
-                    MenuOptionsView(title: "Variants",
-                                    placeholder: "Choose One",
+                    MenuOptionsView(title: L10n.menuOptionTitle.localize,
+                                    placeholder: L10n.menuOptionPlaceholder.localize,
                                     options: variantsTitle)
                         .padding()
                     
@@ -86,8 +86,8 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
                 
                 DividerView(height: 6)
                 
-                MenuOptionsView(title: "Variants",
-                                placeholder: "Choose One",
+                MenuOptionsView(title: L10n.menuOptionTitle.localize,
+                                placeholder: L10n.menuOptionPlaceholder.localize,
                                 options: [])
                     .padding()
                 
@@ -107,16 +107,17 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
     
     @ViewBuilder
     func failed() -> some View {
-        DialogView(title: "Failed to load data",
-                   subtitle: "Please check your internet connection and try again",
-                   buttonTitle: "Tap to Reload") {
+        DialogView(title: L10n.failStateTitle.localize,
+                   subtitle: L10n.failStateSubTitle.localize,
+                   buttonTitle: L10n.failStateButton.localize) {
             viewModel.load()
         }
     }
 
     @ViewBuilder
     func empty() -> some View {
-        DialogView(title: "Menu is still empty", subtitle: "Subscribe to unlock content!")
+        DialogView(title: L10n.emptyStateTitle.localize,
+                   subtitle: L10n.emptyStateSubTitle.localize)
     }
     
     var header: some View {
@@ -228,16 +229,16 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
     @ViewBuilder
     func notes() -> some View {
         VStack(alignment: .leading) {
-            Text("Notes")
+            Text(L10n.notesTitle.localize)
                 .font(.callout)
                 .fontWeight(.semibold)
                 .foregroundColor(Color.primary)
             
-            Text("Optional")
+            Text(L10n.notesSubTitle.localize)
                 .font(.footnote)
                 .foregroundColor(Color.gray.opacity(0.5))
             
-            TextField("Eg. No Mushroom", text: $notesText)
+            TextField(L10n.notesPlaceholder.localize, text: $notesText)
                 .textFieldStyle(.plain)
                 .font(.callout)
                 .onChange(of: notesText.publisher.collect()) { _ in
@@ -302,7 +303,7 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
         Button {} label: {
             HStack {
                 Spacer()
-                Text("Add To Cart \(viewModel.formattedSubtotal)")
+                Text("\(L10n.addToCart.localize) \(viewModel.formattedSubtotal)")
                     .fontWeight(.semibold)
                     .foregroundColor(Color.white)
                     .padding()
@@ -319,7 +320,7 @@ struct CatalogueDetailScreenView<ViewModel: CatalogueDetailViewModel>: View {
         Button {} label: {
             HStack {
                 Spacer()
-                Text("Remove Item")
+                Text(L10n.removeItem.localize)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.white)
                     .padding()
