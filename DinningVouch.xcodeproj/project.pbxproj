@@ -51,6 +51,8 @@
 		DE0EEA01284CF88B00F0D381 /* MockCatalogueDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE9BE284C82DE00F0D381 /* MockCatalogueDetail.json */; };
 		DE0EEA05284D956000F0D381 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE0EEA07284D956000F0D381 /* Localizable.strings */; };
 		DE0EEA0A284D998800F0D381 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EEA09284D998800F0D381 /* L10n.swift */; };
+		DE0EEA0D284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */; };
+		DE0EEA16284D9DC600F0D381 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = DE0EEA15284D9DC600F0D381 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,7 @@
 		DE0EEA06284D956000F0D381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DE0EEA08284D957500F0D381 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DE0EEA09284D998800F0D381 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinningVouchUiInspectorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0EEA16284D9DC600F0D381 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +156,7 @@
 				DE0EE973284C73BD00F0D381 /* DinningVouchTests */,
 				DE0EE97D284C73BD00F0D381 /* DinningVouchUITests */,
 				DE0EE961284C73BC00F0D381 /* Products */,
+				DE0EEA14284D9DC600F0D381 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +200,7 @@
 		DE0EE973284C73BD00F0D381 /* DinningVouchTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EEA0B284D9D1000F0D381 /* UITestInspector */,
 				DE0EE974284C73BD00F0D381 /* DinningVouchTests.swift */,
 			);
 			path = DinningVouchTests;
@@ -418,6 +424,21 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		DE0EEA0B284D9D1000F0D381 /* UITestInspector */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EEA0C284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift */,
+			);
+			path = UITestInspector;
+			sourceTree = "<group>";
+		};
+		DE0EEA14284D9DC600F0D381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +478,9 @@
 				DE0EE972284C73BD00F0D381 /* PBXTargetDependency */,
 			);
 			name = DinningVouchTests;
+			packageProductDependencies = (
+				DE0EEA15284D9DC600F0D381 /* ViewInspector */,
+			);
 			productName = DinningVouchTests;
 			productReference = DE0EE970284C73BD00F0D381 /* DinningVouchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -516,6 +540,7 @@
 				DE0EE9A8284C7E5500F0D381 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				DE0EE9CF284CED2400F0D381 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */,
+				DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = DE0EE961284C73BC00F0D381 /* Products */;
 			projectDirPath = "";
@@ -603,6 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0EE975284C73BD00F0D381 /* DinningVouchTests.swift in Sources */,
+				DE0EEA0D284D9D4A00F0D381 /* DinningVouchUiInspectorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1231,6 +1257,14 @@
 				kind = branch;
 			};
 		};
+		DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1248,6 +1282,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE0EE9E5284CF18300F0D381 /* XCRemoteSwiftPackageReference "NukeUI" */;
 			productName = NukeUI;
+		};
+		DE0EEA15284D9DC600F0D381 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0EEA11284D9D9F00F0D381 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
